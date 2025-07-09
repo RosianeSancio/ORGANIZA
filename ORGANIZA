@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Espera – Curso ORGANIZA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f9d58, #34a853);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #ffffff11;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    ul {
+      text-align: left;
+      padding-left: 0;
+      margin-bottom: 30px;
+    }
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+    }
+    input, button {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    input {
+      color: #333;
+    }
+    button {
+      background-color: #fff;
+      color: #0f9d58;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #f1f1f1;
+    }
+    .disclaimer {
+      font-size: 12px;
+      color: #ccc;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ORGANIZA</h1>
+    <h2>O Método Simples para Dominar Suas Finanças<br>e Reescrever Sua História com o Dinheiro</h2>
+    <ul>
+      <li>✅ Organize suas finanças sem planilhas complicadas</li>
+      <li>✅ Aprenda a guardar dinheiro sem abrir mão do que ama</li>
+      <li>✅ Templates prontos no Notion e planilhas fáceis de usar</li>
+      <li>✅ Tenha controle da sua vida financeira de forma leve</li>
+      <li>✅ Acesso antecipado + bônus exclusivos para quem estiver na lista</li>
+    </ul>
+    <form action="#" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu melhor e-mail" required>
+      <input type="tel" name="whatsapp" placeholder="Seu WhatsApp" required>
+      <button type="submit">Quero Entrar na Lista de Espera Agora</button>
+    </form>
+    <p class="disclaimer">
+      🔐 Seus dados estão 100% seguros. Sem spam, só conteúdo transformador.
+    </p>
+  </div>
+</body>
+</html>
